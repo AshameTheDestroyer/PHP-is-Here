@@ -1,0 +1,59 @@
+:root {
+    --background-colour: #fefefe;
+    --background-darker-colour: #ededed;
+    --background-darkest-colour: #cdcdcd;
+    --fore-colour: black;
+
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+
+    background-color: var(--background-colour);
+    color: var(--fore-colour);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+q,
+ul,
+ol,
+dl {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    color: inherit;
+    background-color: transparent;
+
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
